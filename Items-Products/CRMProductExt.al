@@ -40,37 +40,9 @@ tableextension 57103 CRMProductExt extends "CRM Product"
             OptionMembers = " ",FIFO,LIFO,Specific,Average,Standard;
             OptionCaption = ' ,FIFO,LIFO,Specific,Average,Standard';
         }
-
-
-        /* field(57110; "ARRK Base Unit of Measure"; Text[10])
-         {
-             Caption = 'ARRK Base Unit of Measure';
-             ExternalName = 'arrk_baseunitofmeasure';
-             DataClassification = CustomerContent;
-         }
-
-          field(57111; "ARRK Item Tracking Code Std"; Text[10])
-          {
-              Caption = 'ARRK Item Tracking Code Std';
-              ExternalName = 'arrk_itemtrackingcodestd';
-              DataClassification = CustomerContent;
-          }
-
-           field(57112; "ARRK Lot Nos Std"; Text[20])
-           {
-               Caption = 'ARRK Lot Nos Std';
-               ExternalName = 'arrk_lotnosstd';
-               DataClassification = CustomerContent;
-           }
-           field(57113; "ARRK Description 2 std"; Text[50])
-           {
-               Caption = 'ARRK Description 2 std';
-               ExternalName = 'arrk_description2std';
-               DataClassification = CustomerContent;
-           }*/
-
+        /* 
         //issues
-        /*
+    
         field(57107; "ARRK Item Tracking Code"; Text[50])
         {
             Caption = 'ARRK Item Tracking Code';

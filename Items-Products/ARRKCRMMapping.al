@@ -23,7 +23,6 @@ codeunit 57104 "ARRK CRM Product Mapping"
         InsertFieldMapping(IntegrationFieldMapping, Item.FieldNo("ARRK Cost Method"), CRMProduct.FieldNo("ARRK Cost Method"));
 
 
-
         // ARRK Description 2
         // InsertFieldMapping(IntegrationFieldMapping, Item.FieldNo("ARRK Description 2"), CRMProduct.FieldNo("ARRK Description 2 std"));
 
@@ -35,15 +34,6 @@ codeunit 57104 "ARRK CRM Product Mapping"
 
         // ARRK Lot Nos
         //    InsertFieldMapping(IntegrationFieldMapping, Item.FieldNo("ARRK Lot Nos"), CRMProduct.FieldNo("ARRK Lot Nos"));
-
-        // Base Unit of Measure (standard field 8)
-        // InsertFieldMapping(IntegrationFieldMapping, Item.FieldNo("Base Unit of Measure"), CRMProduct.FieldNo("ARRK Base Unit of Measure"));
-
-        // Item Tracking Code (standard field 6500)
-        //  InsertFieldMapping(IntegrationFieldMapping, Item.FieldNo("Item Tracking Code"), CRMProduct.FieldNo("ARRK Item Tracking Code Std"));
-
-        // Lot Nos. (standard field 6501)
-        // InsertFieldMapping(IntegrationFieldMapping, Item.FieldNo("Lot Nos."), CRMProduct.FieldNo("ARRK Lot Nos Std"));
 
     end;
 
