@@ -23,7 +23,7 @@ codeunit 57108 "ARRK Sales Order Field Mapping"
             SalesLine.FieldNo("ARRK Unit Cost"),
             CRMSalesOrderDetail.FieldNo("ARRK Unit Cost"));
 
-        // ARRK Markup
+        // ARRK Markup /
         InsertFieldMapping(IntegrationFieldMapping,
             SalesLine.FieldNo("ARRK Markup"),
             CRMSalesOrderDetail.FieldNo("ARRK Markup"));
