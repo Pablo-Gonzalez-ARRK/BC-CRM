@@ -5,7 +5,7 @@ using Microsoft.Integration.D365Sales;
 using Microsoft.Integration.SyncEngine;
 
 codeunit 57108 "ARRK Sales Order Field Mapping"
-{//this is a test for git updates
+{//this is a test
     [EventSubscriber(ObjectType::Codeunit, Codeunit::"CRM Setup Defaults", 'OnAfterResetConfiguration', '', false, false)]
     local procedure AddARRKSalesLineFieldMappings()
     var
