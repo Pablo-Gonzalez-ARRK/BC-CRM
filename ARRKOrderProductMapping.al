@@ -11,7 +11,7 @@ codeunit 57105 "ARRK Order Product Mapping"
         IntegrationTableMapping: Record "Integration Table Mapping";
         CRMSalesOrderDetail: Record "CRM Sales Order Detail";
     begin
-        // Registrar la tabla Order Product en Integration Table Mapping
+        // Registrar la tabla Order Product en Integration Table Mapping/
         if IntegrationTableMapping.Get('ORDERPRODUCT') then
             IntegrationTableMapping.Delete(true);
 
